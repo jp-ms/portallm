@@ -1,0 +1,76 @@
+.titulo {
+    font-size: 140%;
+    padding: 35px;
+}
+
+#contenido ul {
+border: 0px black solid;
+    list-style-type:none;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#bibliografia ul li{
+    border: 0px orange solid;
+    text-align: center;
+    text-indent: 0px;
+}
+
+#bibliografia ul li a {
+    border: 0px red solid;
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    line-height: 30px;
+    padding: 5px 10px;
+    margin: 8px;
+    text-align: center;
+}
+
+#bibliografia ul li a i {
+    line-height: 10px;
+}
+
+#referencias ul li a{
+    border: 0px red solid;
+    text-decoration: none;
+}
+
+#bibliografia {
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+#referencias {
+    padding-bottom: 50px;
+}
+
+/* Sangría francesa para las referencias */
+#referencias ul li{
+    text-indent: -50px;
+    margin-left: 50px;
+}
+
+
+
+/*Colores:*/
+
+#bibliografia {
+    background-color: #C51162;
+    color: #FFF;
+}
+
+
+
+
+
+#bibliografia ul li a, #bibliografia ul li i {
+    background-color: #FFF;
+    color: #C51162;
+    font-weight: bold;
+}
+
+#referencias ul li a{
+    color: #000;
+}

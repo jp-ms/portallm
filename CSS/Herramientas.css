@@ -1,0 +1,59 @@
+
+
+/* Texto */
+#contenido p, #contenido ul {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.herramientaA, .herramientaB{
+    padding: 20px;
+}
+
+
+/* Imagenes */
+.herramientaA  img {
+    border: 0px green solid;
+    float: right;
+    margin: 12px;
+}
+
+.herramientaB  img {
+    border: 0px green solid;
+    float: left;
+    margin: 12px;
+}
+
+.redesneuronales {
+    border: 0px green solid;
+    display: block !important;
+    float: none !important;
+    margin: auto !important;
+}
+
+
+/*Colores:*/
+
+.herramientaA{
+    background-color: #C51162;
+    color: #FFF;
+}
+
+.herramientaB {
+    color: #C51162;
+    background-color: #FFF;
+}
+
+#pie {
+    background-color: #FFF;
+    color: #C51162;
+    border-top: 1px #FFF solid;
+}
+
+
+#pie a{
+    color: #C51162;
+}

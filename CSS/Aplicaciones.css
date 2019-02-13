@@ -1,0 +1,44 @@
+
+
+/* Texto */
+#contenido p {
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aplicacion{
+    padding: 20px;
+}
+
+
+/* Videos */
+.aplicacion iframe {
+    display: block;
+    margin: 25px auto;
+}
+
+
+/*Colores:*/
+
+#transportes, #marketing, #pintura, #videojuegos{
+    background-color: #C51162;
+    color: #FFF;
+}
+
+#finanzas, #musica, #sanidad {
+    color: #C51162;
+    background-color: #FFF;
+}
+
+#pie {
+    background-color: #FFF;
+    color: #C51162;
+    border-top: 1px #FFF solid;
+}
+
+
+#pie a{
+    color: #C51162;
+}

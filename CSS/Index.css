@@ -1,0 +1,169 @@
+
+#titulo1{
+	top: 40%;
+	text-align: center;
+}
+
+/* Apartado introductorio */
+
+#definicion {
+    position: relative;
+    left: 15%;
+    max-width: 70%;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+#clasificacion {
+    border: 0px #C51162 solid;
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+    border-spacing: 30px;
+}
+
+
+
+#clasificacion td a{
+    border: 1px #C51162 solid;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 100%;
+    display: block;
+    padding: 15px;
+    margin: 15px;
+    line-height: 50px;
+}
+
+/* Definiciones */
+
+
+h3 {
+    border: 0px red solid;
+    text-align: center;
+}
+
+ #subdefiniciones p, #subdefiniciones blockquote, #subdefiniciones ul {
+    border: 0px red solid;
+    width: 70%;
+    margin: 0px auto;
+}
+
+
+.subdefinicion{
+    border: 0px black solid;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.subdefinicion p{
+    border: 0px red solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.subdefinicion ul{
+    border: 0px red solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.subdefinicion ul li{
+    padding: 10px;
+    list-style: circle inside;
+    
+}
+
+#subdef3 table{
+    margin: 15px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+#subdef3 td{
+    padding: 10px;
+}
+
+#subdefiniciones blockquote {
+    border: 0px red solid;
+    margin: 25px auto 35px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    width: 75%;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#subdef1 {
+    background-image: url("../Imagenes/Index/1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#subdef2 {
+    background-image: url("../Imagenes/Index/2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#subdef3 {
+    background-image: url("../Imagenes/Index/3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#subdef4 {
+    background-image: url("../Imagenes/Index/4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Pie de pagina*/
+#pie {
+    clear: both;
+}
+
+
+/*Colores:*/
+
+/*Tabla*/
+
+#clasificacion td {
+    border:  0px #C51162 solid;
+}
+
+#clasificacion td a{
+    color: #C51162;
+}
+
+/* Colores en definiciones */
+
+#subdef1{
+    background-color: #C51162;
+    color: #FFF;
+}
+
+#subdef2{
+    background-color:#FFF;
+    color: #C51162;
+}
+
+
+
+#subdef3{
+    background-color: #C51162;
+    color: #FFF;
+}
+
+
+#subdef4{
+    background-color:#FFF;
+    color: #C51162;
+}
+

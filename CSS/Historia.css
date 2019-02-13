@@ -1,0 +1,129 @@
+
+
+/* Cronograma de la izquierda */
+
+
+#timeline{
+    border: 0px blue solid;
+    float: right;
+    width: 22%;
+    background-image: url("../Imagenes/Historia/CronoBg.png");
+    background-repeat: repeat-y;
+    background-position: 14.5px 0px;
+    padding-top: 20px;
+}
+
+
+#timeline li{
+    list-style-position: outside;
+    list-style-image: url("../Imagenes/Historia/Crono.png");
+    font-size: small;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 49px;
+    padding: 0px;
+}
+
+#timeline h1{
+    border: 0px black solid;
+    background-color: unset;
+    height: unset;
+    width: unset;
+    margin: 0px;
+    padding: 0px 10px;
+    position: relative;
+    top: -6px;
+    left: -11px;
+    text-indent: 0px;
+    font-size: 150%;
+    line-height: 20px;
+}
+
+#timeline p {
+    border: 0px #C51162 solid;
+    position: relative;
+    left: -11px;
+    text-indent: 0px;
+    margin: 0px;
+    padding: 0px 10px;
+    line-height: 25px;
+    letter-spacing: 1px;
+
+}
+
+#timeline i{
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+/* Historia */
+
+#contenido{
+    border-bottom: 0px greenyellow solid;
+}
+
+#historia {
+    border: 0px greenyellow solid;
+    width: 74%;
+    float: right;
+    margin: 0px auto;
+    margin-right: 2%;
+}
+
+#historia h2{
+    border: 0px blue solid;
+    font-size: 140%;
+    margin-top: 40px;
+}
+
+#historia .a, #historia .b{
+    border: 0px blue solid;
+    padding: 20px, 0px;
+}
+
+#historia p  {
+    border: 0px blue solid;
+    padding: 15px; 
+}
+
+#historia .imagen{
+    border: 0px red solid;
+    float: right;
+    font-size: x-small;
+    text-align: right;
+    padding: 0px;
+    margin-top:27px;
+    margin-right: 15px;
+    margin-bottom: -15x;
+}
+
+#historia .imagen img{
+    border: 0px green solid;
+    margin-bottom: -25px;
+    margin-left: -20px;
+
+}
+
+
+
+/*Colores:*/
+/*Timeline*/
+
+#timeline h1{
+    color: #C51162;
+}
+
+#timeline p, #timeline i{
+    color: #C51162;
+}
+
+#historia .a, #historia .b{
+    border-top: 1px #C51162 solid;
+}
+
+#historia1{
+    border-top: 0px #C51162 solid !important;
+}
+
+
+

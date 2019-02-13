@@ -1,0 +1,193 @@
+  @charset "UTF-8";
+ 
+*{
+    /* Para prevenir problemas con margin y padding que los navegadores ponen automáticamente en algunos elementos, se reinician a 0. */
+     margin: 0px;
+     padding: 0px;
+     border: 0px;
+     font-family: sans-serif;
+     font-weight: normal;
+     font-size: 98%;
+     letter-spacing: 2px;
+     line-height: 40px;
+
+ }
+ 
+ strong{
+    font-variant: small-caps;
+ }
+ 
+ i {
+    font-style: italic;
+ }
+
+/* Cabecera y menú */
+#cabecera{
+    display:block;
+    width: 100%;
+}
+
+#banner {
+    border: 0px black solid;
+ }
+ 
+ h1 {
+    border: 0px red solid;
+    height: 60px;
+    width: 100%;
+
+    
+     /*Opciones para el banner grande y centrado */
+    height: 120px;
+ }
+ 
+ h1 a {
+    border: 0px orange solid;
+    text-decoration: none;
+    font-weight: normal;
+    letter-spacing: 8px;
+    font-size: 220%;
+    font-variant: small-caps;
+    display: inline-block;
+    
+    line-height: 50px; /*50 de line-height y 20 de padding-top suman los 60 del h1 que contiene este elemento. Así se garantiza que el botón del enlace ocupa toda la altura del elemento contenedor, y mientras que el texto aparece centrado verticalmente.*/
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+     /*Opciones para el banner grande y centrado */
+    width: 100%;
+    padding: 0px;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 110px;
+}
+
+#menu {
+
+}
+
+#menu ul {
+    list-style-type:none;
+    border: 0px black solid;
+    height: 50px;
+    float: left;
+    width: 100%;
+}
+
+#menu ul li{
+    border: 0px orange solid;
+    float: left;
+    width: 16.66%;
+}
+
+#menu ul li a{
+    border: 0px red solid;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 50px; /*Permite asignar la misma altura del ul a los botones, para que nunca se desalineen respecto a su fondo*/
+}
+
+/* Contenido */
+
+#contenido{
+    clear: both;
+}
+    
+.titulo {
+    border: 0px red solid;
+    text-align: center;
+    min-height: 50px;
+    line-height: 50px;
+    position: relative;
+    letter-spacing: 2px;
+    font-size: 120%;
+    margin-top: 35px;
+    font-variant: small-caps;
+}
+
+#titulo1{
+    margin-top: 115px;
+    margin-bottom: 30px;
+    font-size: 170%;
+    letter-spacing: 4px;
+    clear:both;
+}
+
+#contenido p, #contenido li, #contenido dt, #contenido dd {
+    border: 0px green solid;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 40px;
+}
+
+
+
+/*Pie de pagina*/
+#pie {
+    clear: both;
+    position: relative;
+    height: 75px;
+    background-color: #C51162;
+    color: #FFF;
+    font-size: x-small;
+    text-align: center;
+    border-top: 1px #FFF solid;
+}
+
+.footP{
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+
+#pie a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: x-small;
+}
+
+#cc{
+    border: 0px green solid;
+    padding: 0px;
+    margin: 20px;
+    position: relative;
+    top: 12px;
+}
+
+/*Colores:*/
+
+/*Colores de cabecera y menú*/
+ h1 {
+    background-color: #C51162;
+ }
+ 
+ h1 a{
+    background-color: #C51162;
+    color: #FFF;
+ }
+ 
+#menu ul {
+    background-color: #9A074A;
+}
+
+#menu ul li a{
+    color: #FFF;
+    background-color: #9A074A;
+}
+
+#menu ul li #actual{
+    background-color: #6B0031;
+}
+
+#menu ul li a:hover, #menu ul li #actual:hover{
+    background-color: #CD3B7D;
+}
+

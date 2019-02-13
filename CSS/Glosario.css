@@ -1,0 +1,99 @@
+
+/* Índice */
+
+#indice ul {
+border: 0px black solid;
+    list-style-type:none;
+    width: 76%;
+    margin-left:12%;
+    text-align: center;
+}
+
+#indice ul li{
+    border: 0px orange solid;
+    padding: 0px;
+    display: inline;
+    margin-left: auto;
+}
+
+#indice ul li a {
+    border: 0px red solid;
+    display: inline-block;
+    text-decoration: none;
+    font-variant: small-caps;
+    line-height: 30px;
+    padding: 5px 10px;
+    margin: 3px;
+    margin-left: auto;
+}
+
+#indice ul li a i {
+    line-height: 10px;
+}
+
+/* Definiciones */
+
+#definiciones {
+    clear: both;
+    margin-top: 50px;
+}
+
+#contenido dl {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+#contenido dt {
+    font-variant: small-caps;
+}
+
+#contenido dt, #contenido dd {
+    padding: 5px 25px; 
+}
+
+#definiciones p{
+    border: 0px black solid;
+    width: 80%;
+    margin-left: 10%;
+    text-align: right !important;
+    padding: 0px;
+}
+
+#definiciones a {
+    border: 0px red solid;
+    text-decoration: none;
+    margin: 0px;
+    margin-right: 25px;
+}
+
+#contenido p, #contenido li, #contenido dt, #contenido dd, #contenido blockquote{
+    text-align: justify;
+    padding: 15px;
+    text-indent: 0px;
+}
+
+#contenido dd {
+
+    text-indent: 40px;
+}
+
+/*Colores:*/
+
+#indice ul li a {
+    color: #FFF;
+    background-color: #C51162;
+}
+
+#definiciones dt {
+    background-color: #FFF;
+    border-bottom: 1px #C51162 solid;
+}
+
+#definiciones dd {
+    background-color: #FFF;
+}
+
+#definiciones a {
+    color: #C51162;
+}
